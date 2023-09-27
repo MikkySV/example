@@ -1,14 +1,13 @@
 package org.rtk.domain;
 
-import java.io.IOException;
-
 public class Command {
     private String name;
     private String description;
 
-    public Command(){
+    public Command() {
     }
-    public Command(String name,String description) {
+
+    public Command(String name, String description) {
         this.name = name;
         this.description = description;
     }

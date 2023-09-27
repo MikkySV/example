@@ -7,10 +7,11 @@ public class Mem {
     private String filename;
     private String extension;
     private String memText;
-    public Mem(){
+
+    public Mem() {
     }
 
-    public Mem(Path path,String filename,String extension,String memText) {
+    public Mem(Path path, String filename, String extension, String memText) {
         this.path = path;
         this.filename = filename;
         this.extension = extension;
@@ -47,7 +48,7 @@ public class Mem {
     }
 
 
-    public void setMemText(String memText){
+    public void setMemText(String memText) {
         this.memText = memText;
     }
 }
